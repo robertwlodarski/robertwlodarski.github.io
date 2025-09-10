@@ -8,8 +8,10 @@ redirect_from:
 ---
 
 I'm an analyst at the Bank of England, now starting as an economics PhD student at the University of Cambridge.
+Here is my <span style="color: maroon; font-weight: bold;">[CV](/files/main_cv.pdf)</span>.
 
-My research interests focus on <span style="color: maroon; font-weight: bold;"> macroeconomics</span>, <span style="color: maroon; font-weight: bold;">labour</span>, and <span style="color: maroon; font-weight: bold;">firm dynamics</span>. 
+My research focuses on <span style="color: maroon; font-weight: bold;"> macroeconomics</span>, <span style="color: maroon; font-weight: bold;">labour</span>, and <span style="color: maroon; font-weight: bold;">firm dynamics</span>. 
 I'm especially interested in how firms' investment and financing impact worker human capital and labour market outcomes. 
 
-Previously, I worked at the Financial Conduct Authority in London and studied at the University of Edinburgh and Centro de Estudios Monetarios y Financieros (Cemfi) in Madrid.
+Previously, I worked at the Financial Conduct Authority in London. 
+I hold MA (Hons) in economics and mathematics from the University of Edinburgh and MRes in economics and finance from Cemfi.
