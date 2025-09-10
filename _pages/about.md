@@ -14,4 +14,4 @@ My research focuses on <span style="color: maroon; font-weight: bold;"> macroeco
 I'm especially interested in how firms' investment and financing impact worker human capital and labour market outcomes. 
 
 Previously, I worked at the Financial Conduct Authority in London. 
-I hold MA (Hons) in economics and mathematics from the University of Edinburgh and MRes in economics and finance from Cemfi.
+I hold an MA in economics and mathematics from the University of Edinburgh and an MRes in economics and finance from Cemfi.
