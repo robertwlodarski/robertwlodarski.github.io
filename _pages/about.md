@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an analyst at the Bank of England, now starting as an economics PhD student at the University of Cambridge.
+I'm an analyst at the Bank of England, soon starting as an economics PhD student at the University of Cambridge.
 Here is my [<span style="font-weight: bold;">CV</span>](/files/main_cv.pdf).
 
 My research focuses on <span style="color: maroon; font-weight: bold;"> macroeconomics</span>, <span style="color: maroon; font-weight: bold;">labour</span>, and <span style="color: maroon; font-weight: bold;">firm dynamics</span>. 
