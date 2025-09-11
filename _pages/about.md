@@ -13,4 +13,4 @@ Here is my [<span style="font-weight: bold;">CV</span>](/files/main_cv.pdf).
 My research focuses on <span style="color: maroon; font-weight: bold;"> macroeconomics</span>, <span style="color: maroon; font-weight: bold;">labour</span>, and <span style="color: maroon; font-weight: bold;">firm dynamics</span>. 
 I'm especially interested in how firms' investment decisions and financing conditions impact worker human capital and labour market outcomes. 
 
-Previously, I worked at the Financial Conduct Authority in London and studied at the University of Edinburgh and Cemfi.
+Previously, I worked at the Financial Conduct Authority in London and studied at Cemfi and the University of Edinburgh.
