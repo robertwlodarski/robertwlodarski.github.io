@@ -24,9 +24,9 @@ repository               : "robertwlodarski.github.io"
 author: 
   # Biographic information
   avatar           : "profile.png"
-  name             : "Rob Włodarski"
+ # name             : "Rob Włodarski"
   pronouns         : # example: "she/her"  
-  bio              : "Economics PhD student"
+ # bio              : "Economics PhD student"
   # location         : "Cambridge"
   employer         : "University of Cambridge"
   uri              : # URL
