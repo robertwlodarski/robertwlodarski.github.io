@@ -53,3 +53,9 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color-light           : #{$light-primary-color};
     --global-thead-color                : #{$background-lighter};
 }
+
+// Research highlight for light mode
+.research-highlight {
+  color: maroon;
+  font-weight: bold;
+}

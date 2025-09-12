@@ -12,9 +12,9 @@ $background                 : #474747;
 $background-light           : mix(#fff, $background, 80%);
 $background-lighter         : mix(#fff, $background, 90%);
 $text                       : #ffffff;
-$link                       : #A52A2A;
-$link-dark                  : #A52A2A;
-$link-light                 : #A52A2A;
+$link                       : #FF6B6B;
+$link-dark                  : #FF6B6B;
+$link-light                 : #FF6B6B;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -51,4 +51,10 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #f3f3f3;
     --global-thead-color                : #{$background-lighter};
+}
+
+// Research highlight for dark mode
+.research-highlight {
+  color: #FF6B6B; // Coral red for dark backgrounds
+  font-weight: bold;
 }
