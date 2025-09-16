@@ -41,16 +41,3 @@ $sidebar-screen-min-width   : 1024px;
     --global-thead-color                : #{$lighter-gray};
 }
 
-// Maroon colour
-:root[data-theme="light"] {
-  --maroon: #800000;
-}
-
-:root[data-theme="dark"] {
-  --maroon: #FF6B6B;
-}
-
-.text-maroon {
-  color: var(--maroon);;
-  font-weight: bold;
-}
