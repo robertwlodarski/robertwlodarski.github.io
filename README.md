@@ -42,3 +42,9 @@ Then start the preview server:
 
 Open http://localhost:4000. Saving a file refreshes the page automatically.
 Changes to `_config.yml` need a server restart (Ctrl+C, then run it again).
+
+## Google
+
+The site is registered with [Google Search Console](https://search.google.com/search-console) as a "URL prefix" property for `https://robertwlodarski.github.io/`.
+Verification uses the "HTML file" method: `googlea35f0299f8234102.html` in the top folder must stay there, unchanged.
+The page list Google reads is generated automatically at `/sitemap.xml`.
