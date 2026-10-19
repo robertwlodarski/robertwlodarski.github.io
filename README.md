@@ -25,7 +25,8 @@ VS Code opens them read-only (see `.vscode/settings.json`). `assets/` has to sta
 
 ## Previewing locally
 
-Ruby 3.3 is installed via Homebrew (`brew install ruby@3.3`) and the gems live in `vendor/` (git-ignored).
+Ruby 3.3 is installed via Homebrew (`brew install ruby@3.3`), and the gems are installed with it in `/opt/homebrew/lib/ruby/gems/3.3.0`.
+Keep them out of this folder: Documents syncs to iCloud, and offloaded gem files make Jekyll hang at startup.
 The `github-pages` gem builds with the same Jekyll version and settings as the live site.
 
 First time only:
