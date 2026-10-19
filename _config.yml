@@ -238,6 +238,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # Google's verification file is not a page of the site
+  - scope:
+      path: "googlea35f0299f8234102.html"
+    values:
+      sitemap: false
 
 
 # Sass/SCSS
