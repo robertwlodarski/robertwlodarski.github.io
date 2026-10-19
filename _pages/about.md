@@ -6,10 +6,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm an analyst at the Bank of England, soon starting as an economics PhD student at the University of Cambridge.
-Here is my [<span style="font-weight: bold;">CV</span>](/files/main_cv.pdf).
 
-My research focuses on <span style="color: var(--global-link-color); font-weight: bold;"> macroeconomics</span>, <span style="color: var(--global-link-color); font-weight: bold;">labour</span>, and <span style="color: var(--global-link-color); font-weight: bold;">firm dynamics</span>. 
-I'm especially interested in how firms' investment decisions and financing conditions impact worker human capital and labour market outcomes.
+I'm a PhD student at the University of Cambridge, supervised by [Tiago Cavalcanti](https://sites.google.com/site/tiagovcavalcanti/) and [Vasco Carvalho](https://vasco-m-carvalho.github.io/). 
+My research examines how firms choose their production inputs and the aggregate consequences of those choices.
+Here is my [<span style="font-weight: bold;">CV</span>](/files/MainCVOctober2026.pdf).
 
-Previously, I worked at the Financial Conduct Authority in London and studied at Cemfi and the University of Edinburgh.
+<span style="color: var(--global-link-color); font-weight: bold;"> Fields:</span>
+Macroeconomics, Firm Dynamics, and Labour Economics.
+
+In my previous life, I worked at the Bank of England and Financial Conduct Authority. 
+I hold an MRes in economics and finance from Centro de Estudios Monetarios y Financieros (CEMFI) and an MA in economics and mathematics from the University of Edinburgh.

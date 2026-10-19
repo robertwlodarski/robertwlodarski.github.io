@@ -1,20 +1,15 @@
-# Ignore the contents of the _site directory and other cache directories
+# Build output and caches
 _site/
 .sass-cache/
+.jekyll-cache/
 
-# Ignore the directory for local files during development
-local/
-
-# Ignore the Gemfile that is generated
+# Installed gems (see README for setup)
 Gemfile.lock
-
-# Ignore files created by npm
-node_modules
-package-lock.json
-
-# Ignore the vendor file at root level and bundle for alternative installation
 /vendor/
 .bundle/
 
-# Ignore folders related to IDEs
-.vscode/
+# macOS Finder metadata
+.DS_Store
+
+# Full-size originals of the photo and logo (not published)
+_originals/

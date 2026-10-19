@@ -1,0 +1,27 @@
+{
+  // Template machinery: you can open and read these, but edits are blocked so nothing breaks by accident.
+  // To edit one anyway: Command Palette (Cmd+Shift+P) → "File: Set Active Editor Writeable in Session".
+  "files.readonlyInclude": {
+    "_theme/**": true,
+    "assets/**": true,
+    "_data/ui-text.yml": true,
+    "Gemfile": true,
+    "LICENSE": true
+  },
+
+  // Build output and installed tools: hidden from the sidebar and from search.
+  "files.exclude": {
+    "_site": true,
+    "vendor": true,
+    ".bundle": true,
+    ".sass-cache": true,
+    ".jekyll-cache": true,
+    ".claude": true,
+    "Gemfile.lock": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "_theme": true,
+    "assets": true
+  }
+}

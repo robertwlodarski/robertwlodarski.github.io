@@ -41,3 +41,21 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Accent colour for links and highlights, set in _config.yml */
+:root {
+    --global-link-color                 : {{ site.accent_color }};
+    --global-link-color-hover           : #{mix(#fff, {{ site.accent_color }}, 25%)};
+    --global-link-color-visited         : #{mix(#000, {{ site.accent_color }}, 20%)};
+}
+
+html[data-theme="dark"] {
+    --global-link-color                 : {{ site.accent_color_dark }};
+    --global-link-color-hover           : #{mix(#fff, {{ site.accent_color_dark }}, 40%)};
+    --global-link-color-visited         : {{ site.accent_color_dark }};
+}
+
+/* Links: no underlines anywhere on the site (the colour marks them instead) */
+a {
+    text-decoration: none !important;
+}
