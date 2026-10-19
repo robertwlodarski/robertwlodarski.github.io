@@ -14,5 +14,5 @@ Here is my [<span style="font-weight: bold;">CV</span>](/files/MainCVOctober2026
 <span style="color: var(--global-link-color); font-weight: bold;"> Fields:</span>
 Macroeconomics, Firm Dynamics, and Labour Economics.
 
-In my previous life, I worked at the Bank of England and Financial Conduct Authority. 
+Previously, I worked at the Bank of England and Financial Conduct Authority. 
 I hold an MRes in economics and finance from Centro de Estudios Monetarios y Financieros (CEMFI) and an MA in economics and mathematics from the University of Edinburgh.

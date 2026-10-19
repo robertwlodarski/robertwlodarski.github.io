@@ -4,4 +4,5 @@ permalink: /research/
 author_profile: true
 ---
 
-To be added soon. 
+**How Firms Adjust: Financial Constraints, Hiring Frictions, and
+Skills** October 2026
