@@ -2,10 +2,23 @@
 
 <!-- start custom head snippets -->
 
+{% if page.url == "/" %}
+<!-- Site name for Google, shown above the link in search results -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": {{ site.title | jsonify }},
+    "alternateName": ["Robert Włodarski", "Rob Wlodarski", "Robert Wlodarski"],
+    "url": {{ site.url | append: "/" | jsonify }}
+  }
+</script>
+{% endif %}
+
 <!-- Fonts: Newsreader (serif, for titles) and Public Sans (sans-serif, for everything else) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..600&family=Public+Sans:ital,wght@0,400..700;1,400..700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500&family=Public+Sans:ital,wght@0,400..700;1,400..700&display=swap">
 
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
