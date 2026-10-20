@@ -59,3 +59,94 @@ html[data-theme="dark"] {
 a {
     text-decoration: none !important;
 }
+
+/* ==========================================================================
+   Page design: type hierarchy, section headings, item titles and captions.
+   In a page's Markdown:  ## Section heading   ### Item title   and the line
+   right under an item title becomes its grey caption.
+   ========================================================================== */
+
+:root {
+    --global-bg-color                   : {{ site.background_color }};
+    --global-footer-bg-color            : #{mix(#000, {{ site.background_color }}, 4%)};
+    --global-border-color               : #{mix(#000, {{ site.background_color }}, 10%)};
+    --global-text-color                 : #1F2328;
+    --global-masthead-link-color        : #1F2328;
+    --caption-color                     : #6A665F;
+}
+
+html[data-theme="dark"] {
+    --caption-color                     : #D0D0D0;
+}
+
+/* Page title, e.g. "Teaching" */
+.page__title {
+    font-family: $serif;
+    font-size: 2.2em;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+.page__content {
+    /* Section heading: bold sans-serif in the accent colour, with a rule underneath */
+    h2 {
+        margin: 2.5em 0 1em;
+        padding-bottom: 0.35em;
+        border-bottom: 2px solid var(--global-link-color);
+        color: var(--global-link-color);
+        font-size: 1.15em;
+        font-weight: 700;
+    }
+
+    > h2:first-child {
+        margin-top: 0.5em;
+    }
+
+    /* Item title, e.g. a course or a paper, with a hairline divider between items */
+    h3 {
+        margin: 1.25em 0 0.2em;
+        padding-top: 1.1em;
+        border-top: 1px solid var(--global-border-color);
+        font-family: $serif;
+        font-size: 1.3em;
+        font-weight: 500;
+        letter-spacing: -0.005em;
+    }
+
+    h2 + h3,
+    > h3:first-child {
+        margin-top: 0;
+        padding-top: 0;
+        border-top: 0;
+    }
+
+    /* Caption: the line directly under an item title */
+    h3 + p {
+        margin-bottom: 0.5em;
+        color: var(--caption-color);
+        font-size: 0.85em;
+    }
+}
+
+/* Top menu: the site name in the serif, and the current page marked in the accent colour */
+.greedy-nav .visible-links {
+    li:first-child a {
+        font-family: $serif;
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+
+    a:before {
+        height: 2px;
+    }
+
+    a.is-active {
+        color: var(--global-link-color);
+
+        &:before {
+            background: var(--global-link-color);
+            transform: scaleX(1);
+        }
+    }
+}
+

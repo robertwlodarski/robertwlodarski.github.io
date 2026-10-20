@@ -12,6 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 theme                    : null      # no GitHub Pages default theme; this site has its own in _theme/
 accent_color             : "#1E3A8A" # links and highlights (navy)
 accent_color_dark        : "#A9C4FA" # the same in dark mode; needs to be light to read on grey
+background_color         : "#F8F6F1" # page background in light mode (warm off-white)
 title                    : "Rob Włodarski"
 title_separator          : "-"
 name                     : &name "Rob Włodarski"

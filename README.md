@@ -14,9 +14,28 @@ Built with Jekyll on the [Academic Pages](https://github.com/academicpages/acade
 | Browser-tab icon | `images/favicon*`, `images/apple-touch-icon-180x180.png` |
 | Name, email, social links | `_config.yml` → `author` |
 | Accent colour (links, highlights) | `_config.yml` → `accent_color`, `accent_color_dark` |
+| Background colour | `_config.yml` → `background_color` |
+| Fonts, heading and caption styles | `assets/css/main.scss` (the "Page design" block at the end) |
 | Menu links | `_data/navigation.yml` |
 
 `_originals/` holds the full-size photo and logo. It is git-ignored, so it never gets published.
+
+## Writing a page
+
+Pages are Markdown. Three markers give the page its layout:
+
+```markdown
+## Section heading
+
+### Item title, e.g. a course or a paper
+Caption: the line directly under an item title is small and grey
+
+Ordinary text goes after a blank line.
+```
+
+- `##` section heading: bold, in the accent colour, with a rule underneath.
+- `###` item title: in the serif font, with a thin divider between items.
+- To make an item title a link: `### [Title](https://...)`.
 
 ## What not to edit
 
